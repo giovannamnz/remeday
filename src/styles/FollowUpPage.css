@@ -1,0 +1,35 @@
+.container-acompanhamento {
+  padding: 1rem;
+}
+
+.botao-voltar {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #659ad2;
+}
+
+.data-selecionada {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.lista-medicamentos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bloco-medicamento {
+  background-color: #659ad2;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bloco-medicamento span {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
