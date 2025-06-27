@@ -1,0 +1,72 @@
+.popup-registro-emocao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-registro-emocao h3 {
+  color: #659ad2;
+  margin-bottom: 1rem;
+}
+
+.icones-emocao {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icones-emocao img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.caixa-input {
+  background-color: #659ad2;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.caixa-input.selecionado {
+  background-color: #4d84c2;
+}
+
+.caixa-input input {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.palavras-chave {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip-palavra {
+  background-color: white;
+  color: #659ad2;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.botao-confirmar {
+  background-color: #659ad2;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

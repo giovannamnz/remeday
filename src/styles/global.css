@@ -1,0 +1,46 @@
+/* -----Reset básico de margens e paddings------ */
+/* Remove margens, paddings e bordas padrão de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -----Estilo padrão do body------ */
+/* Define a fonte principal e cor de fundo global da aplicação */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* -----Links sem sublinhado------ */
+/* Remove o sublinhado padrão de todos os links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -----Botões padrão------ */
+/* Remove bordas e define cursor pointer em todos os botões */
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* -----Inputs padrão------ */
+/* Remove borda padrão dos inputs e define preenchimento básico */
+input, textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+/* -----Classe global para centralizar verticalmente------ */
+/* Pode ser usada em qualquer elemento para centralizar no eixo Y */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
