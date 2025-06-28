@@ -1,0 +1,14 @@
+.botao-principal {
+  width: 100%;
+  background-color: #659ad2;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-principal:hover {
+  background-color: #4d84c2;
+}

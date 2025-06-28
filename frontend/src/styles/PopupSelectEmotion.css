@@ -1,0 +1,45 @@
+
+.popup-selecao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-selecao h3 {
+  color: #659ad2;
+  margin-bottom: 1rem;
+}
+
+.opcoes-emocao {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.opcoes-emocao img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #659ad2;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

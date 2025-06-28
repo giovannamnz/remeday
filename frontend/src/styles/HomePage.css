@@ -1,0 +1,30 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.saudacao-home {
+  color: #659ad2;
+  margin-bottom: 1rem;
+}
+
+.saudacao-home span {
+  color: #4d84c2;
+}
+
+.caixa-opcao {
+  background-color: #659ad2;
+  color: white;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.caixa-opcao:hover {
+  background-color: #4d84c2;
+}
